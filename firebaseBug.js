@@ -1,0 +1,1 @@
+The Firebase Authentication SDK might throw an unexpected error if the user's email or password is incorrect.  This error isn't always clearly documented and can be tricky to debug.  For example, using `signInWithEmailAndPassword` might return a generic error code without specifying if the problem is an invalid email or password.
